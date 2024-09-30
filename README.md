@@ -67,7 +67,6 @@ L'interacteur entre dans une tour d'horloge et ajuste les aiguilles, découvrant
 - [État de veille / Aucune intéraction ](https://www.youtube.com/watch?v=JiogkSyZrNE)
 - [Mouvement de particules](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72)
 - [Musique de fond + ambiance lorsque aiguilles avances](https://youtu.be/FjOsnoqN1TE?si=oeMmLjaEoNIi0cqX&t=4065)
-- [Recule aiguilles](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72)
 - [Ambiance de fond lorsque recule aiguilles](https://youtu.be/7tKG5vaTLhE?si=Lireml1ShS82FWfJ&t=122)
 - [Musique de fond lorsque aiguilles reculent](https://youtu.be/N0pHcH5dYSw?si=5QluCPJhOgtpFpzq&t=2506)
 
