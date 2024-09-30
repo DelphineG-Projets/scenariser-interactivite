@@ -13,7 +13,7 @@ Une oeuvre intéractive et immersive où l'intéracteur manipule le temps. Il co
 ### Interactif
 ```mermaid
 flowchart TD
-   A[Entrée dans la Pièce] --> B[Manipulation des Aiguilles]
+   A[Entrée dans la Pièce] --> B[Lumière, visuels et sons modifiés]
     
     B --> J{Décider de l'action}
     J -->|Avancer les aiguilles| G[Changement de Position et de Taille des Particules]
@@ -23,10 +23,10 @@ flowchart TD
     K -->|Laisser comme ça| L[Garde les Visuels]
     K -->|Avancer les aiguilles| G
 
-    G --> C[Interaction Visuelle et Sonore]
-    L --> C[Interaction Visuelle et Sonore]
+    G --> C[Interactions visuelles et sonores avec la main sur le mur]
+    L --> C[Interactions visuelles et sonores avec la main sur le mur]
     
-    C --> I[Capteur de Présence: Lumière et Visuels Manipulés]
+    C --> I[Modification de l'environnement]
     
     I --> D[Exploration de l'Impact]
 
@@ -50,7 +50,6 @@ flowchart TD
 ### Narratif
 L'interacteur entre dans une tour d'horloge et ajuste les aiguilles, découvrant que ses actions influencent les visuels et les sons. Il se transportant ainsi à travers le temps tout en manipulant les particules qui l'entourent. Chaque geste à un impact direct sur l'environnement.
 ### Expérience utilisateur
-### Expérience utilisateur
 - **Entrée dans l'espace** : L’intéracteur entre dans la pièce et découvre l'horloge illuminée.
 - **Manipulation des aiguilles** : L’utilisateur ajuste les aiguilles de l'horloge (avance ou recule).
 - **Interaction avec l'environnement** : Les visuels et les sons changent en temps réel en réponse aux ajustements des aiguilles.
@@ -68,7 +67,7 @@ L'interacteur entre dans une tour d'horloge et ajuste les aiguilles, découvrant
 - [État de veille / Aucune intéraction ](https://www.youtube.com/watch?v=JiogkSyZrNE)
 - [Mouvement de particules](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72)
 - [Musique de fond + ambiance lorsque aiguilles avances](https://www.youtube.com/watch?v=FjOsnoqN1TE&list=PLBaFTa_UFZw5AFjmoCkERmpDF0azvArDc&index=38)
-- [Recule aiguilles]([https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72))
+- [Recule aiguilles](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72)
 - [Ambiance de fond lorsque recule aiguilles](https://youtu.be/7tKG5vaTLhE?si=Lireml1ShS82FWfJ&t=122)
 - [Musique de fond lorsque aiguilles reculent](https://youtu.be/N0pHcH5dYSw?si=5QluCPJhOgtpFpzq&t=2506)
 
@@ -80,28 +79,28 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 
 **Audio** : 
 - Musique de fond et sons mécaniques d'horloge. (Effets mystérieux)
-- Bruits de particules qui bougent (Mouvement et jouer avec le temps)
+- Bruits de particules qui bougent (Mouvement et jouer avec le temps) 
 - Bruits dissonants (Lorsqu'on essaie de reculer le temps, montre qu'il est impossible de le faire
 
 **Visuels** :
 - Animations d'une tour d'horloge (effet surréel, immersif)
-- Animations de particules qui changent selon les mouvements des aiguilles et le mouvement de la main sur le mur, ce qui illustre un voyage dans le temps
+- Animations de particules qui changent selon les mouvements des aiguilles et le mouvement de la main sur le mur (illustre un voyage dans le temps, instabilité/temporalité/fluidité du temps.
 
 **Lumières** : Éclairages dynamiques et changement de couleurs selon la direction des aiguilles.
 
 ### Matériel
-**LIDAR** : Détecter la position et les mouvements de l'utilisateur.
-**Projecteurs** : Projeter des visuels et modifier l'environnement en fonction des actions de l'utilisateur.
-**Capteurs de présence** : Détecter la présence d'un utilisateur dans l'environnement.
-**Capteurs d'angle** : Mesurer les mouvements des aiguilles.
-**Systèmes audio** : Créer un environnements sonores immersifs.
-**Ordinateur et ses composants** : Traiter les données des capteurs et gérer les logiciels interactifs.
+- **LIDAR** : Détecter la position et les mouvements de l'utilisateur.
+- **Projecteurs** : Projeter des visuels et modifier l'environnement en fonction des actions de l'utilisateur.
+- **Capteurs de présence** : Détecter la présence d'un utilisateur dans l'environnement.
+- **Capteurs d'angle** : Mesurer les mouvements des aiguilles.
+- **Systèmes audio** : Créer un environnements sonores immersifs.
+- **Ordinateur et ses composants** : Traiter les données des capteurs et gérer les logiciels interactifs.
 
 ### Logiciels
-**TouchDesigner** : Créer des visuels interactifs en temps réel et gérer les effets visuels.
-**MadMapper** : Mapping vidéo et projeter les visuels sur les murs.
-**Arduino** : Contrôle des capteurs.
-**OSC Bridge**: Communiquer entre les logiciels et capteurs.
+- **TouchDesigner** : Créer des visuels interactifs en temps réel et gérer les effets visuels.
+- **MadMapper** : Mapping vidéo et projeter les visuels sur les murs.
+- **Arduino** : Contrôle des capteurs.
+- **OSC Bridge**: Communiquer entre les logiciels et capteurs.
 
 Réseautage et communication  :
 - **OSC** : Données des capteurs vers les logiciels de projection et des systèmes audio.
