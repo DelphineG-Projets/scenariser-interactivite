@@ -1,5 +1,4 @@
-# Scénariser l'intéractivité 
-## ChronoSpectra (Spectre du Temps)
+# ChronoSpectra (Spectre du Temps)
 ### Concept
 Une oeuvre intéractive et immersive où l'intéracteur manipule le temps. Il contrôle une horloge qui a un impact direct sur les visuels et les sons, démontrant que chaque action a un impact sur le futur.
 ### Objectifs
