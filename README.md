@@ -102,7 +102,7 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 - **Arduino** : Contrôle des capteurs.
 - **OSC Bridge**: Communiquer entre les logiciels et capteurs.
 
-Réseautage et communication  :
+### Réseautage et communication  :
 - **OSC** : Données des capteurs vers les logiciels de projection et des systèmes audio.
 - **MIDI** : Synchroniser les effets sonores avec les ajustements des aiguilles de l'horloge.
 - **Réseaux** : Réseaux Ethernet ou Wi-Fi.
