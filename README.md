@@ -62,7 +62,8 @@ L'interacteur entre dans une tour d'horloge et ajuste les aiguilles, découvrant
    
 ## Ambiance
 ### Planche d'ambiances visuelles
-![ambiances visuelles](https://i.ibb.co/DpT8PNR/ambiances-vis.jpg)
+L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réaliste. Les particules qui changent à travers les horloges et les actions de l'utilisateur symbolisent le voyage dans le temps.
+![ambiances visuelles](https://i.ibb.co/cLHb93s/references-art.jpg)
 ### Planche d'ambiances sonores
 - [État de veille / Aucune intéraction ](https://www.youtube.com/watch?v=JiogkSyZrNE)
 - [Mouvement de particules](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72)
@@ -71,8 +72,7 @@ L'interacteur entre dans une tour d'horloge et ajuste les aiguilles, découvrant
 - [Musique de fond lorsque aiguilles reculent](https://youtu.be/N0pHcH5dYSw?si=5QluCPJhOgtpFpzq&t=2506)
 
 ### Références artistiques
-L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réaliste. Les particules qui changent à travers les horloges et les actions de l'utilisateur symbolisent le voyage dans le temps.
-![Références artistiques](https://i.ibb.co/cLHb93s/references-art.jpg)
+![Références artistiques](https://i.ibb.co/DpT8PNR/ambiances-vis.jpg)
 ## Technologies
 ### Support médiatique
 
