@@ -6,10 +6,9 @@ Une oeuvre intéractive et immersive où l'intéracteur manipule le temps. Il co
 - **Le temps est irréversible** : Illustrer qu'il est impossible de revenir en arrière et que le temps avance de manière irréversible.
 - **Impact des actions** : Montrer que chaque action a des conséquences directe, soulignant l'importance de nos choix.
 ### Motivations
-- Nouvelles technologies (capteurs de présence, capteurs d'angle)
-- Utilisation d'objets physique
-- 
-Discussion des motivations créatives derrière le choix des médias et des technologies.
+- **Nouvelles technologies** : Intégration de capteurs de présence et de capteurs d'angle pour enrichir l'expérience.
+- **Utilisation d'objets physiques** : Utiliser un objet physique et le contrôler.
+- **Créativité et expression personnelle** : Créer une oeuvre où chacun peut exprimer
 ## Scénario
 ### Interactif
 ```mermaid
@@ -17,21 +16,23 @@ flowchart TD
    A[Entrée dans la Pièce] --> B[Manipulation des Aiguilles]
     
     B --> J{Décider de l'action}
-    J -->|Avancer les aiguilles| G[Influence: Visuels et Sons]
-    J -->|Reculer les aiguilles| H[Influence: Visuels et Sons Brisés]
-    
+    J -->|Avancer les aiguilles| G[Changement de Position et de Taille des Particules]
+    J -->|Reculer les aiguilles| H[Déclenchement de Sons Dissonants, Changement de Couleurs et Particules ne Suivant Plus l'Intéracteur]
+
+    H --> K{Choix après recul}
+    K -->|Laisser comme ça| L[Garde les Visuels]
+    K -->|Avancer les aiguilles| G
+
     G --> C[Interaction Visuelle et Sonore]
-    H --> C[Interaction Visuelle et Sonore]
+    L --> C[Interaction Visuelle et Sonore]
     
     C --> I[Capteur de Présence: Lumière et Visuels Manipulés]
     
-    I --> D[Déclenchement de l'Alarme]
-    D --> E[Révélation de l'Horloge]
-    E --> F[Exploration de l'Impact]
+    I --> D[Exploration de l'Impact]
 
-    F --> J
-    J -->|Aucune intéraction| Z[Personne quitte la pièce]
-F --> Z
+    D --> J
+    J -->|Aucune interaction| Z[Personne quitte la pièce]
+    D --> Z
     
     %% Styles pour améliorer l'apparence
     classDef startEnd fill:#CFFFE5,stroke:#98FB98,stroke-width:2px,rx:10px,ry:10px;
@@ -40,47 +41,67 @@ F --> Z
     classDef decision fill:#FFEB9C,stroke:#F0C20C,stroke-width:2px,rx:10px,ry:10px;
 
     %% Styles des noeuds
-    class A,E,Z startEnd;
-    class B,C,D,F action;
+    class A,Z startEnd;
+    class B,C,D action;
     class G,H,I transition;
-    class J decision;
+    class J,K decision;
+    class L action;
 ```
 ### Narratif
-L'interacteur entre dans une pièce, ajuste les aiguilles d'une horloge et découvre que ses actions influencent les visuels et les sons. Une alarme et une lumière sur l'horloge révèlent l'impact de ses choix.
-
+L'interacteur entre dans une tour d'horloge et ajuste les aiguilles, découvrant que ses actions influencent les visuels et les sons. Il se transportant ainsi à travers le temps tout en manipulant les particules qui l'entourent. Chaque geste à un impact direct sur l'environnement.
 ### Expérience utilisateur
-
+### Expérience utilisateur
 - **Entrée dans l'espace** : L’intéracteur entre dans la pièce et découvre l'horloge illuminée.
 - **Manipulation des aiguilles** : L’utilisateur ajuste les aiguilles de l'horloge (avance ou recule).
 - **Interaction avec l'environnement** : Les visuels et les sons changent en temps réel en réponse aux ajustements des aiguilles.
 - **Réaction des capteurs** : Les capteurs détectent la présence de l'utilisateur et modifient la lumière et les visuels en conséquence.
-- **Déclenchement de l'alarme** : Après un certain temps, une alarme sonnet et les visuels disparaissent, concentrant la lumière sur l'horloge.
 - **Révélation de l'impact** : L'utilisateur observe comment ses ajustements des aiguilles influencent l'œuvre et l'environnement.
-- **Exploration des Conséquences** : L'utilisateur continue d'interagir avec l'horloge pour comprendre les effets de ses choix dans l'espace.
+- **Exploration des conséquences** : L'utilisateur continue d'interagir avec l'horloge pour comprendre les effets de ses choix dans l'espace.
+- **Choix supplémentaires** : Après avoir reculé les aiguilles, l'utilisateur peut décider de laisser l'état chaotique ou de revenir en avant.
+- **Feedback visuel et sonore** : Chaque action à un impact et renforce la connexion entre l'utilisateur et l'œuvre.
+- **Exploration libre** : L'utilisateur est encouragé à expérimenter.
    
 ## Ambiance
 ### Planche d'ambiances visuelles
-Sert à illustrer l'atmosphère visuelle du projet.
-Utilisation d’images, de palettes de couleurs, de textures pour représenter l’univers artistique.
+![ambiances visuelles](https://i.ibb.co/DpT8PNR/ambiances-vis.jpg)
 ### Planche d'ambiances sonores
-Sert à illustrer l'atmosphère sonore du projet.
-Utilisation d'échantillons, de musiques, de textures sonores pour représenter l’univers artistique.
+- [État de veille / Aucune intéraction ](https://www.youtube.com/watch?v=JiogkSyZrNE)
+- [Mouvement de particules](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72)
+- [Musique de fond + ambiance lorsque aiguilles avances](https://www.youtube.com/watch?v=FjOsnoqN1TE&list=PLBaFTa_UFZw5AFjmoCkERmpDF0azvArDc&index=38)
+- [Recule aiguilles]([https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72](https://youtu.be/9EX5DCNdgkQ?si=hgGJ3D5o2K2U35Oe&t=72))
+- [Ambiance de fond lorsque recule aiguilles](https://youtu.be/7tKG5vaTLhE?si=Lireml1ShS82FWfJ&t=122)
+- [Musique de fond lorsque aiguilles reculent](https://youtu.be/N0pHcH5dYSw?si=5QluCPJhOgtpFpzq&t=2506)
+
 ### Références artistiques
-Explication de l’esthétique et du design choisi, et comment ils renforcent la narration.
-Choix de références visuelles et sonores (films, œuvres d’art, environnements) qui influencent l’expérience.
+L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réaliste. Les particules qui changent à travers les horloges et les actions de l'utilisateur symbolisent le voyage dans le temps.
+![Références artistiques](https://i.ibb.co/cLHb93s/references-art.jpg)
 ## Technologies
 ### Support médiatique
-Description des types de médias (vidéo, audio, lumières, capteurs, etc.) et de leur intégration pour créer une expérience immersive.
-### Matériel
-Technologies interactives : Liste des technologies interactives employées (caméras, LIDAR, systèmes RFID, etc.) pour capter et analyser les actions du public en temps réel, permettant de déclencher des événements en réponse.
 
-- Lidar
-- 
-Plateformes et outils : Présentation matériels et interfaces interactives nécessaires au projet, comme des logiciels de projection, des systèmes de tracking ou des capteurs intelligents.
-- 
+**Audio** : 
+- Musique de fond et sons mécaniques d'horloge. (Effets mystérieux)
+- Bruits de particules qui bougent (Mouvement et jouer avec le temps)
+- Bruits dissonants (Lorsqu'on essaie de reculer le temps, montre qu'il est impossible de le faire
+
+**Visuels** :
+- Animations d'une tour d'horloge (effet surréel, immersif)
+- Animations de particules qui changent selon les mouvements des aiguilles et le mouvement de la main sur le mur, ce qui illustre un voyage dans le temps
+
+**Lumières** : Éclairages dynamiques et changement de couleurs selon la direction des aiguilles.
+
+### Matériel
+**LIDAR** : Détecter la position et les mouvements de l'utilisateur.
+**Projecteurs** : Projeter des visuels et modifier l'environnement en fonction des actions de l'utilisateur.
+**Capteurs de présence** : Détecter la présence d'un utilisateur dans l'environnement.
+**Capteurs d'angle** : Mesurer les mouvements des aiguilles.
+**Systèmes audio** : Créer un environnements sonores immersifs.
+**Ordinateur et ses composants** : Traiter les données des capteurs et gérer les logiciels interactifs.
 
 ### Logiciels
-- Touch designer
+**TouchDesigner** : Créer des visuels interactifs en temps réel et gérer les effets visuels.
+**MadMapper** : Mapping vidéo et projeter les visuels sur les murs.
+**Arduino** : Contrôle des capteurs.
+**OSC Bridge**: Communiquer entre les logiciels et capteurs.
 
 Réseautage et communication  :
 - **OSC** : Données des capteurs vers les logiciels de projection et des systèmes audio.
