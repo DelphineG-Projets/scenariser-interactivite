@@ -2,7 +2,6 @@
 ### Concept
 Une oeuvre intéractive et immersive où l'intéracteur manipule le temps. Il contrôle une horloge qui a un impact direct sur les visuels et les sons, démontrant que chaque action a un impact sur le futur.
 ### Objectifs
-- **Le temps est irréversible** : Illustrer qu'il est impossible de revenir en arrière et que le temps avance de manière irréversible.
 - **Impact des actions** : Montrer que chaque action a des conséquences directe, soulignant l'importance de nos choix.
 ### Motivations
 - **Nouvelles technologies** : Intégration de capteurs de présence et de capteurs d'angle pour enrichir l'expérience.
