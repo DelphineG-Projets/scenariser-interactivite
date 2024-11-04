@@ -126,7 +126,7 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 
 #### Fournis par le diffuseur
 ##### Vidéo :
-Projection vidéo nette et fluide sur 3 murs
+Projection vidéo nette et fluide sur le mur
 - 1 x Projecteurs vidéo full HD puissant
 
 #### Détection :
@@ -146,6 +146,9 @@ Projection vidéo nette et fluide sur 3 murs
 
 ##### Réseaux :
 - Câble Ethernet / Wifi
+
+##### Autre :
+- Tape
 
 ### Logiciels
 - **TouchDesigner** : Créer des visuels interactifs en temps réel et gérer les effets visuels.
