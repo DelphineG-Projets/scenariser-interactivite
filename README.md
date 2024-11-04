@@ -85,14 +85,6 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 
 **Lumières** : Éclairages dynamiques et changement de couleurs selon la direction des aiguilles.
 
-### Matériel
-- **LIDAR** : Détecter la position et les mouvements de l'utilisateur.
-- **Projecteurs** : Projeter des visuels et modifier l'environnement en fonction des actions de l'utilisateur.
-- **Capteurs de présence** : Détecter la présence d'un utilisateur dans l'environnement.
-- **Capteurs d'angle** : Mesurer les mouvements des aiguilles.
-- **Systèmes audio** : Créer un environnements sonores immersifs.
-- **Ordinateur et ses composants** : Traiter les données des capteurs et gérer les logiciels interactifs.
-
 ## Synoptique
 ### Schéma technique et Flux de données
 ![Schéma technique](https://i.ibb.co/jDCJMXV/branchement.png)
