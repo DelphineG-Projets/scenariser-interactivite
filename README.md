@@ -104,7 +104,7 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 
 ## Scénarimage / Simulation
 ### Visualisation des séquences
-![Scénarimage](https://i.ibb.co/wC22TPQ/plantation.png)
+![Scénarimage](https://i.ibb.co/X7PKsjV/new-2024-11-04-12-09-54-1.png)
 ### Illustrations des interactions
 #### Lorsqu'on avance les auguilles
 ![Lorsqu'on avance aiguilles](https://i.ibb.co/Cz25Nsb/avanceaiguilles.png)
