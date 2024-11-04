@@ -94,30 +94,30 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 - **Ordinateur et ses composants** : Traiter les données des capteurs et gérer les logiciels interactifs.
 
 ## Synoptique
-### Schéma technique
-- Créer un synoptique représentant les connexions entre les dispositifs (câblages, réseaux, signaux audio/vidéo, etc.).
-- Préciser les types de signal, les protocoles utilisés et la communication entre les dispositifs (OSC, MIDI, DMX, etc.).
-### Flux de données
-- Décrire le cheminement des flux de données entre les différentes composantes de l’installation.
+### Schéma technique et Flux de données
+![Schéma technique](https://i.ibb.co/jDCJMXV/branchement.png)
 
-  
 ## Plantation
 ### Emplacement des dispositifs
-- Planifier la disposition des dispositifs multimédias dans l’espace (projecteurs, capteurs, caméras, haut-parleurs, etc.).
-- Justifier chaque emplacement en fonction des besoins techniques et des interactions utilisateurs.
+![Plantation](https://i.ibb.co/jDCJMXV/branchement.png)
+- Haut parleurs dans chaque coins pour créer un ambiance stéréophonique
+- LIDAR proche du mur pour capter les mouvements de la personne
+- Horloge à l'arrière pour permettre à plusieurs personne de jouer avec les particules au mur. 
+- Justifier chaque emplacement en fonction des besoins techniques et des interactions utilisateurs
 ### Circulation des visiteurs
-- Anticiper le mouvement des visiteurs et leur interaction avec les points d’interaction dans l’espace.
+![Circulation](https://i.ibb.co/XCQN1Zj/deplacement.png)
 ### Gestion des câblages
-- Préciser comment les câblages et connexions seront organisés pour assurer la sécurité et l’esthétique de l’installation.
+- Cablage au sol ou plafond
+- Utilisation de la régie pour l'ordinateur et connections
 
 ## Scénarimage / Simulation
 ### Visualisation des séquences
-- Présenter un scénarimage ou une simulation en 3D qui montre les principales étapes de l’expérience multimédia, du point de vue de l’utilisateur.
+![Scénarimage](https://i.ibb.co/wC22TPQ/plantation.png)
 ### Illustrations des interactions
-- Intégrer des visuels ou des captures d’écrans montrant comment l’installation réagit aux actions des utilisateurs.
-### Évolution visuelle et narrative
-- Visualiser la progression de l'expérience en fonction des interactions utilisateurs.
-
+![Lorsqu'on avance aiguilles](https://i.ibb.co/Cz25Nsb/avanceaiguilles.png)
+![Plus on avance les aiguilles](https://i.ibb.co/sqz2JyV/continue-avancer.png)
+![Lorsqu'on recule aiguilles](https://i.ibb.co/Qr6q6QZ/reculeaiguilles.png)
+![Plus on recule les aiguilles](https://i.ibb.co/1q3G2q3/continue-reculer.png)
 
 ## Devis technique
 ### Liste des équipements
@@ -131,10 +131,10 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 #### Fournis par le diffuseur
 ##### Vidéo :
 Projection vidéo nette et fluide sur 3 murs
-- 3 x Projecteurs vidéo full HD puissant
+- 1 x Projecteurs vidéo full HD puissant
 
 #### Détection :
-- 3x LIDAR
+- 1x LIDAR
 - 1x Capteur de présence
 
 ##### Audio :
@@ -145,7 +145,7 @@ Projection vidéo nette et fluide sur 3 murs
 ##### LX :
 - 4 Lampes LEDs
 
-- ##### Électricité :
+##### Électricité :
 - 1 x Circuit au sol 120v 
 
 ##### Autre :
