@@ -85,10 +85,6 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 
 **Lumières** : Éclairages dynamiques et changement de couleurs selon la direction des aiguilles.
 
-## Synoptique
-### Schéma technique et Flux de données
-![Schéma technique](https://i.ibb.co/jDCJMXV/branchement.png)
-
 ## Plantation
 ### Emplacement des dispositifs
 ![Plantation](https://i.ibb.co/wC22TPQ/plantation.png)
@@ -101,6 +97,10 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 ### Gestion des câblages
 - Cablage au sol ou plafond
 - Utilisation de la régie pour l'ordinateur et connections
+
+## Synoptique
+### Schéma technique et Flux de données
+![Schéma technique](https://i.ibb.co/jDCJMXV/branchement.png)
 
 ## Scénarimage / Simulation
 ### Visualisation des séquences
@@ -144,7 +144,7 @@ Projection vidéo nette et fluide sur 3 murs
 ##### Électricité :
 - 1 x Circuit au sol 120v 
 
-##### Autre :
+##### Réseaux :
 - Câble Ethernet / Wifi
 
 ### Logiciels
