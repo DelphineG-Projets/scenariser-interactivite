@@ -99,7 +99,7 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 
 ## Plantation
 ### Emplacement des dispositifs
-![Plantation](https://i.ibb.co/jDCJMXV/branchement.png)
+![Plantation](https://i.ibb.co/wC22TPQ/plantation.png)
 - Haut parleurs dans chaque coins pour créer un ambiance stéréophonique
 - LIDAR proche du mur pour capter les mouvements de la personne
 - Horloge à l'arrière pour permettre à plusieurs personne de jouer avec les particules au mur. 
