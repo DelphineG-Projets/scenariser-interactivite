@@ -91,7 +91,7 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 - Haut parleurs dans chaque coins pour créer un ambiance stéréophonique
 - LIDAR proche du mur pour capter les mouvements de la personne
 - Horloge à l'arrière pour permettre à plusieurs personne de jouer avec les particules au mur. 
-- Justifier chaque emplacement en fonction des besoins techniques et des interactions utilisateurs
+- Projecteur avec projection sur le mur
 ### Circulation des visiteurs
 ![Circulation](https://i.ibb.co/XCQN1Zj/deplacement.png)
 ### Gestion des câblages
