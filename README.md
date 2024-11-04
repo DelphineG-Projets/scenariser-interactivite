@@ -114,19 +114,23 @@ L'esthétique steampunk de la tour d'horloge crée un univers immersif, non réa
 ### Visualisation des séquences
 ![Scénarimage](https://i.ibb.co/wC22TPQ/plantation.png)
 ### Illustrations des interactions
+#### Lorsqu'on avance les auguilles
 ![Lorsqu'on avance aiguilles](https://i.ibb.co/Cz25Nsb/avanceaiguilles.png)
+#### Plus on avance les auguilles (Plus de particules, taille change)
 ![Plus on avance les aiguilles](https://i.ibb.co/sqz2JyV/continue-avancer.png)
+#### Lorsqu'on recule les auguilles
 ![Lorsqu'on recule aiguilles](https://i.ibb.co/Qr6q6QZ/reculeaiguilles.png)
+#### Plus on recule les auguilles (Plus de particules, taille change)
 ![Plus on recule les aiguilles](https://i.ibb.co/1q3G2q3/continue-reculer.png)
 
 ## Devis technique
 ### Liste des équipements
 #### Fournis par l'artiste
-- Capteur d'angle
-- Sculpture en métal
-- Horloge
-- Ordinateur et logiciels
-- Arduino
+- 1x Capteur d'angle
+- 1x Sculpture en métal
+- 1x Horloge
+- 1x Ordinateur et logiciels
+- 1x Arduino
 
 #### Fournis par le diffuseur
 ##### Vidéo :
